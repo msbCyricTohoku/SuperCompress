@@ -7,9 +7,9 @@
                                                                              
 ===============================================================================
 
-PROGRAM:   SuperCompress
-SYSTEM:    Qt / C++ (Cross-Platform GUI)
-ENGINE:    zlib (via qCompress) + OpenMP
+- PROGRAM:   SuperCompress
+- SYSTEM:    Qt / C++ (Cross-Platform GUI)
+- ENGINE:    zlib (via qCompress) + OpenMP
 
 ---[ DESCRIPTION ]-------------------------------------------------------------
 
@@ -38,3 +38,4 @@ Requires Qt 5.x+, a C++ compiler, and OpenMP support.
 Add the following to your .pro file before compiling: QMAKE_CXXFLAGS += -fopenmp
 
 [EOF]
+
